@@ -18,7 +18,7 @@ const numbers = [
   { "number": 14, "icelandic": "fjórtán" },
   { "number": 15, "icelandic": "fimmtán" },
   { "number": 16, "icelandic": "sextán" },
-  { "number": 17, "icelandic": "sj seventeen" },
+  { "number": 17, "icelandic": "sautján" },
   { "number": 18, "icelandic": "áttatán" },
   { "number": 19, "icelandic": "níután" },
   { "number": 20, "icelandic": "tuttugu" },
