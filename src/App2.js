@@ -108,7 +108,7 @@ const App = () => {
   };
 
   const speakIcelandicNumber = (text) => {
-    const audio = new Audio(`/mp3/${text}.mp3`);
+    const audio = new Audio(process.env.PUBLIC_URL + `/mp3/${text}.mp3`);
 audio.play();
   };
 
