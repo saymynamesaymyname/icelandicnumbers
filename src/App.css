@@ -209,9 +209,10 @@ ul {
   
   }
 
-  .number-card {
+  .number-card, .progress-container {
     width: 100%;
     margin-bottom: 20px;
+    flex-basis: 100%;
   }
 }
 .number-container {
