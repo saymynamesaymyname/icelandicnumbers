@@ -55,8 +55,10 @@ h1, h2, h3 {
 
 .progress-column {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  justify-content:  start;
+  align-items: center;
 }
 
 .progress-column div {
