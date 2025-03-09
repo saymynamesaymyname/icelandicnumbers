@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/icelandicnumbers/static/css/main.fbae52f0.css",
-    "main.js": "/icelandicnumbers/static/js/main.39bd5828.js",
+    "main.js": "/icelandicnumbers/static/js/main.cafbc7cd.js",
     "index.html": "/icelandicnumbers/index.html",
     "main.fbae52f0.css.map": "/icelandicnumbers/static/css/main.fbae52f0.css.map",
-    "main.39bd5828.js.map": "/icelandicnumbers/static/js/main.39bd5828.js.map"
+    "main.cafbc7cd.js.map": "/icelandicnumbers/static/js/main.cafbc7cd.js.map"
   },
   "entrypoints": [
     "static/css/main.fbae52f0.css",
-    "static/js/main.39bd5828.js"
+    "static/js/main.cafbc7cd.js"
   ]
 }
