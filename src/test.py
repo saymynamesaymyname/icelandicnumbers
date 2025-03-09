@@ -3,8 +3,7 @@ import os
 
 # Icelandic numbers as strings
 numbers = [
-    "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
-    "20", "30", "40", "50", "60", "70", "80", "90", "Hundrað", "Þúsund", "Milljón"
+    "11", "12", "13", "14", "15", "16", "17", "18", "19"
 ]
 
 # Language code for Icelandic
