@@ -1,0 +1,233 @@
+/* App.css */
+
+/* Add this part for the Icelandic character buttons */
+
+/* App.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  color: #333;
+  font-weight: 500;
+}
+
+.App {
+  display: flex;
+  justify-content: space-between;  /* Ensure space between columns */
+  padding: 20px;
+  gap: 20px;  /* Space between columns */
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* Allow the columns to wrap on smaller screens */
+}
+
+
+.number-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 50%; /* Adjusted width to fit within two columns */
+  transition: all 0.3s ease-in-out;
+}
+
+.progress-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 40%; /* Adjusted width to fit within two columns */
+  transition: all 0.3s ease-in-out;
+}
+
+.reset-button-container {
+  margin-top: 20px;
+  top: 10px;
+  left: 10px;
+}
+
+.progress-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.progress-column div {
+  display: flex;
+  justify-content:  start;
+  gap: 4px;
+  align-items: center;
+}
+
+.number-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.input-button-wrapper {
+  display: flex;
+  justify-content: space-between; /* Space between input and button */
+  align-items: center; /* Center vertically */
+  gap: 10px; /* Space between the elements */
+  width: 100%; /* Full width of the container */
+}
+
+input[type='text'] {
+  padding: 10px;
+  width: 80%;  /* You can adjust this width based on your design */
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 18px;
+  box-sizing: border-box;
+  display: inline;
+  height: 40px;  /* Ensure consistent height for input */
+}
+
+input[type='text']:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);  /* Optional */
+}
+
+button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  height: 40px;  /* Match height of input */
+  display: flex;  /* Make sure button content is centered */
+  align-items: center;  /* Vertically center content in button */
+}
+
+button:hover {
+  background-color: #2563eb;  /* Darker blue on hover */
+  transform: scale(1.05);  /* Slightly enlarge button */
+}
+
+
+button:hover {
+  background-color: #2563eb;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+h3 {
+  font-size: 24px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+
+ul {
+  -moz-column-count: 4;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 4;
+  column-gap: 20px;
+}
+
+
+
+.progress-column span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.dots {
+  display: flex;
+  gap: 5px;
+}
+
+.dots span {
+  font-size: 24px;
+  color: #3b82f6;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.correct-message {
+  color: green;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.icelandic-characters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.icelandic-btn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.icelandic-btn:hover {
+  background-color: #2563eb;
+}
+
+.icelandic-btn:focus {
+  outline: none;
+}
+
+.icelandic-btn:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column;
+  
+  }
+
+  .number-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.number-container {
+  display: flex;
+  align-items: center;  /* Vertically align the items */
+  justify-content: center;  /* Align items to the left */
+}
+
+.audio-button {
+  margin-left: 10px;  /* Add some space between the number and button */
+  padding: 5px 10px;  /* Add padding to the button */
+  font-size: 14px;  /* Adjust the font size of the button */
+  cursor: pointer;  /* Add a pointer cursor to the button */
+}
+
+.next-number-text {
+  margin-right: 5px; /* Space between the text and number */
+}
+
