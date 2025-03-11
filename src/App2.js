@@ -5,7 +5,7 @@ const numbers = [
   { "number": 1, "icelandic": "einn" },
   { "number": 2, "icelandic": "tveir" },
   { "number": 3, "icelandic": "þrír" },
-  { "number": 4, "icelandic": "fjögur" },
+  { "number": 4, "icelandic": "fjórir" },
   { "number": 5, "icelandic": "fimm" },
   { "number": 6, "icelandic": "sex" },
   { "number": 7, "icelandic": "sjö" },
